@@ -1,0 +1,10 @@
+dubbo:
+  application:
+    name: consumer
+  registry:
+    id: zookeeper
+    address: 127.0.0.1
+    port: 2181
+    protocol: zookeeper
+server:
+  port: 8088
